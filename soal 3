@@ -1,0 +1,26 @@
+soal 3
+sebuah toko memiliki potongan sebesar 10 % apabila membeli sejumlah barang dengan harga diatas 50.000 dan mendapatkan 1 stamp.
+lalu potongan sebesar 20 % apabila membeli sejumlah barang dengan harga diatas 100.000 dan mendapatkan 2 stamp. 
+kemudian potongan sebesar 25 % apabila membeli sejumlah barang dengan harga diatas 200.000 dan mendapatkan 3 stamp.
+
+algoritma menentukan berapa potongan dan stamp yang diberikan kepada pembeli.
+algoritma ;
+step 1 mendeklarasikan pembeli, potongan.
+step 2 masukan nilai pembeli.
+step 3 tentukan nilai potongannya dan jumlah stamp.
+step 4 tentukan harga setelah mendapatkan potongan.
+
+pseudocode:
+dekalrasi
+var pembeli , potongan.
+masukan nilai pembeli.
+potongan =   if >= 50.000 maka 10 %
+	else if >= 100.000 maka 20%
+	else if >= 200.000 maka 25 %
+write (potongan)
+stamp=       if >= 50.000 maka 1 stamp
+	else if >= 100.000 maka 2 stamp
+	else if >= 200.000 maka 3 stamp
+write (stamp)
+harga = nilai pembeli * potongan.
+write (harga)
